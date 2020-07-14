@@ -1,0 +1,93 @@
+/* for basic setting */
+
+* {
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+
+body{
+	
+	font-size: 20px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	background-color: #fff;	
+
+}
+
+/*  comapny name and website link */
+
+.projectname{
+	
+	margin-top: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 160%;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+}
+
+.companyweblink{
+
+	text-align: center;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	font-size: 70%;
+	font-weight: 700;
+} 
+
+/*  login details  design section */
+
+.logindiv { 
+	
+	border: 3px solid black; 
+	width: 28%;
+	margin-left: 10%;
+	margin-top: 50px; 
+
+}
+
+.loginheader{
+
+	text-align: center;
+	margin: 20px 0 20px 0;
+	font-size: 120%;
+	font-weight: 400;
+}
+
+.login-form input{
+	
+	font-size: 80%;
+	width: 70%;
+	height: 38px;
+	margin: 0 0 25px 20px;
+	padding: 5px 0 5px	 5px;
+	background: #939696;
+ }
+
+.login-form button{
+	
+	font-size: 80%;
+	height: 30px;
+	margin-left: 20px;
+	background: #ffff;
+	width: 80px;
+	text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px;
+    margin: 0 0 15px 20px;
+}
+
+.forgetmessage{
+	
+	font-size: 70%;
+	margin: 10px 0 30px 20px;
+	font-weight: 700;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+}
