@@ -1,0 +1,307 @@
+/* for basic setting */
+
+* {
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	
+	font-size: 20px;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	background-color: #fff;	
+}
+
+/*-------navigations section----------*/
+
+.topnav{
+	
+	width: 100%;
+	height: 60px;
+}
+
+.projectname{
+	
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	word-spacing: 5px;
+	font-size: 110%;
+	margin-left: 15%;
+}
+
+.nav-link{
+
+	color: black;
+	font-size: 120%;
+	margin-right: 20px;
+}
+
+.username{
+
+	font-size: 100%;
+	margin-top: 3px;
+	margin-right: 0; 
+}
+
+/*  start mainsource section */
+	
+	/* side navigation bar section*/
+
+	.sidenavigation{
+
+		position: fixed;
+		width: 180px;
+		border-right: 2px solid black;
+		height: 100%;	
+	
+	}
+
+	.sidenavigation ul{
+
+		list-style: none;
+		margin-top: 30px;
+		padding: 5px 0 5px  0;
+	}
+
+	.sidenavigation ul li{
+
+		margin-bottom: 10px;
+	}
+
+	.sidenavigation ul li a{
+		text-decoration: none;
+		color: black;
+		display: block;
+		font-size: 100%;
+		padding: 10px 10px 10px 15px;
+	}
+
+	.sidenavigation ul li:hover{
+
+  	background-color: #4cafed;
+	}
+
+	/* start  main content */
+
+	.main_content{
+		
+		margin-left: 180px;
+
+	}
+
+	 /* start  headerpartone content */
+	 .headerpartone{
+	 	height: 80px;
+	 	margin-left: 25px;
+	 }
+
+	 .one{
+
+	 	list-style: none;
+	 	float: left;
+	 	margin-top: 30px;
+	 }
+
+	 .one li{
+
+	 	display: inline-block;
+		margin-left: 20px;
+	 }
+
+	 .one li:first-child{
+	 
+	 	margin-left: 0;
+	 }
+
+	 input[type="text"]{
+	 
+	 	padding: 15px;
+		height: 30px;
+		padding-right: 40px;
+		border: 2px solid #black;
+		border-radius: 50px;
+		font-size: 90%;
+		outline: none;
+	 }
+	 
+	 ::-webkit-input-placeholder{
+	
+		color: black;
+	 }
+
+	 ::-moz-placeholder{
+		
+		color: black;
+	 }
+
+	 ::-ms-input-placeholder{
+		
+		color: black;
+	 }
+
+	 .fa-search{ 
+		
+		position: absolute;
+		left: 29.3%;
+ 		top: 15%;
+	 }
+
+	 .one li a{
+
+		text-decoration: none;
+		color: black;
+	 }
+
+	 .one li a i{
+	 
+		font-size: 190%;
+		margin-top: -1px;
+		line-height: 100%;
+		vertical-align: middle;
+     }
+
+     .one li a button{
+     	
+     	font-size: 95%;
+		font-weight: 400;
+		background: #ffff;
+		box-shadow: 3px 3px;
+		padding: 1px 20px 1px 20px;
+		border: 2px solid black;
+		height: 30px;
+     }
+
+     .two{
+
+		list-style: none;
+		float: right;
+		margin-top: 35px;	
+	 }
+
+	 .two li{
+	
+		display: inline-block;
+		margin-right: 20px;
+	 }
+
+	 .one li:last-child{
+	 
+	 	margin-right: 0px;
+	 }
+
+	 .two li a{
+	 
+	 text-decoration: none;
+	 color: black;
+	 }
+
+     .two li a p{
+		
+		font-size: 100%;	
+	 }
+
+	 .two li a i{
+	
+		font-size: 160%;
+		margin-right: 20px;
+		margin-top: 1px;
+		line-height: 100%;
+		vertical-align: middle;
+     }
+
+
+     /* start  headerparttwo content */
+
+     .headerparttwo{
+     	margin-top: 10px;
+     	border-top: 2px solid black;
+     	height: 40px;
+	 }
+
+	 /* butoons sections*/
+
+	 .buttonsectionone {
+	
+		list-style: none;
+		float: left;
+		margin-left: 25px;
+		margin-top: 10px;
+	 }
+
+	 .buttonsectionone li{
+	
+		display: inline-block;
+		margin-right: 10px;
+		background: blue;	
+	 }
+
+	 .buttonsectionone li a{
+		
+		text-decoration: none;
+		color: black;
+	 }
+
+	 .buttonsectionone li a button{
+	 	
+	 	font-size: 95%;
+		font-weight: 400;
+		background: #ffff;
+		box-shadow: 3px 3px;
+		padding: 1px 20px 1px 20px;
+		border: 2px solid black;
+		background: #939696;
+	 }
+
+	 .buttonsectionone li a button:hover{
+		background: #fff;
+	 }
+
+	 /* start  headerpartthree content */
+
+	 .headerpartthree{
+   
+     	border-top: 2px solid black;
+     	margin-top: 5px;
+	 }
+
+     /* start  table content */ 
+	 .tabledivision{
+		
+		width:99%;
+		overflow:auto;
+		height:440px;
+		margin-left: 10px;
+	 } 
+
+	 table{
+	
+		width: 100%;
+		border-collapse:collapse;
+		border: 2px solid black;
+     }
+
+	 tr:nth-child(odd){
+	
+		background-color: #f5f5f5;
+	 }
+
+	 th,td{
+	
+		padding:12px 12px 12px 10px;
+		text-align: left;
+		border-right: 1px solid black;
+		border-collapse:collapse;
+		font-size: 90%;
+		font-weight: 400;
+	 }
+
+	 th{
+	
+		border-bottom: 2px solid black;
+		font-size: 100%;
+		font-weight: 700;
+	 } 
